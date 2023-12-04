@@ -1,10 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
 
 
+
+import { FaFacebook,FaLinkedinIn,FaGithub } from "react-icons/fa";
 
 
 function Footer() {
@@ -18,17 +17,21 @@ function Footer() {
     <p>Copyright © 2023 - All right MD.Nasir Ahamad</p>
   </aside> 
   <nav>
-    <div className="grid grid-flow-col gap-4">
-     
-      <div className=''><FaLinkedinIn />
-</div>
-      <a><FaSquareXTwitter />
-                  </a>
-                  <div>
-                      <FaFacebookF />
-
-                  </div>
+   <div className=" relative flex  py-6 rounded shadow-md ">
+  
+    <div className="flex flex-wrap mt-4 space-x-10">
+      <a href="https://www.linkedin.com/in/nasirdeveloper/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-500 mr-2 mb-2">
+        <FaLinkedinIn />
+      </a>
+      <a href="https://www.facebook.com/WebServeHub/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-500 mr-2 mb-2">
+        <FaFacebook />
+      </a>
+      <a href="https://github.com/Nasirahamad88" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-500 mb-2">
+        <FaGithub />
+      </a>
     </div>
+  </div>
+
   </nav>
 </footer>
   )

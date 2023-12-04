@@ -5,13 +5,13 @@ import { TiArrowBack } from "react-icons/ti";
 
 function Language() {
   return (
-      <div className=' w-[60%] mx-auto  mb-32' >
+      <div className=' lg:w-[80%] lg:mx-auto  mb-32' >
           <h2 className='text-center p-8 text-4xl '>
 Languages and Tools <TiArrowBack />
  </h2>
 
 
-          <h2 className='flex text-center justify-between' >
+          <div className='lg:flex text-center lg:justify-between grid grid-rows-4 grid-flow-col gap-4' >
               <a className='px-2' href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" /> </a>
               <a className='px-2' href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> </a>
               <a className='px-2' href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" /> </a>
@@ -28,7 +28,7 @@ Languages and Tools <TiArrowBack />
               <a className='px-2' href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40" /> </a>
               <a className='px-2' href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /> </a>
               <a className='px-2' href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" /> </a>
-              <a className='px-2' href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" /> </a> </h2>
+              <a className='px-2' href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" /> </a> </div>
       </div>
   )
 }

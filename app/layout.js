@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='w-[80%] mx-auto bg-white'>
+        <div className='lg:w-[80%] lg:mx-auto bg-white'>
           <Navbar/>
           {children}
           <Footer/>

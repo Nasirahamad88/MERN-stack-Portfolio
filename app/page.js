@@ -1,9 +1,10 @@
 
 import Image from 'next/image'
 import Hero from './component/Hero/page'
-import Skills from './(back-com)/projects/skills/page'
+import Skills from './(back-com)/skills/page'
 import Projects from './(back-com)/projects/page'
 import Language from './component/language/page'
+import Contact from './(back-com)/contact/page'
 
 
 
@@ -14,7 +15,8 @@ export default function Home() {
       <Language/>
       <Skills />
       
-      <Projects/>
+      <Projects />
+      <Contact/>
     </div>
   )
 }

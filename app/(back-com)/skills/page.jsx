@@ -3,7 +3,7 @@ import React from 'react'
 function Skills() {
   return (
     <div className=''>
-      <h1 className='text-4xl mt-6 font-bold '>Top Skills</h1>
+      <h1 className='text-4xl my-16 font-bold text-center mt-10 '>Top Skills</h1>
       
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
   <li>

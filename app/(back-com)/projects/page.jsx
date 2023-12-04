@@ -5,9 +5,12 @@ import { MdOutlineMiscellaneousServices } from "react-icons/md";
 
 function Projects() {
   return (
-       <div className='w-[80%] mx-auto space-y-14  mt-20'>
-          <h1 className='text-4xl mt-6 font-bold '> <MdOutlineMiscellaneousServices />
-My Complete Projects</h1>
+       <div className='w-[80%] mx-auto space-y-14  mt-20 text-center'>
+      <div className='font-bold items-center justify-center text-4xl inline-flex'>
+  <MdOutlineMiscellaneousServices />
+  <h1 className=' mt-7'>My Complete Projects</h1>
+</div>
+
       <div className='space-x-7 space-y-7'>
         <div className="h-96 w-96 carousel carousel-vertical rounded-box ">
   <div className="carousel-item h-full">
