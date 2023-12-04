@@ -5,8 +5,8 @@ import { TiArrowBack } from "react-icons/ti";
 
 function Language() {
   return (
-      <div className=' w-[60%] mx-auto ' >
-          <h2 className='text-center p-8 text-3xl'>
+      <div className=' w-[60%] mx-auto  mb-32' >
+          <h2 className='text-center p-8 text-4xl '>
 Languages and Tools <TiArrowBack />
  </h2>
 
@@ -33,4 +33,4 @@ Languages and Tools <TiArrowBack />
   )
 }
 
-export default skills
+export default Language
